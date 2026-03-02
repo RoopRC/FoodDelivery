@@ -9,6 +9,7 @@ This project allows users to browse food items, add them to the cart, and view t
 ## 🔗 Project Links
 
 GitHub Repository:
+
 https://github.com/RoopRC/FoodDelivery
 
 Live Preview:
