@@ -1,78 +1,97 @@
-🍔 FoodDelivery – Frontend Food Ordering Website
+# 🍔 FoodDelivery – Frontend Food Ordering Website
 
 A responsive and user-friendly Food Delivery Web Application built using HTML, CSS, and JavaScript.
 
-This project allows users to browse food items, add them to cart, and view total price dynamically.
+This project allows users to browse food items, add them to the cart, and view the total price dynamically.
 
-🔗 Project Links
+---
 
-📂 GitHub Repository:
+## 🔗 Project Links
+
+GitHub Repository:
 https://github.com/RoopRC/FoodDelivery
 
-🌐 Live Preview:
+Live Preview:
 https://rooprc.github.io/FoodDelivery/
 
-🚀 Features
+---
 
-🏠 Attractive Home Page
+## 🚀 Features
 
-🍕 Food Items Display Section
+- Attractive Home Page
+- Food Items Display Section
+- Search Functionality
+- Add to Cart Feature
+- Remove from Cart
+- Dynamic Total Price Calculation
+- Fully Responsive Design
+- Clean and Modern UI
 
-🔍 Search Functionality
+---
 
-🛒 Add to Cart Feature
+## 🛠️ Technologies Used
 
-❌ Remove from Cart
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
-💰 Dynamic Total Price Calculation
+---
 
-📱 Fully Responsive Design
+## 📂 Project Structure
 
-🎨 Clean and Modern UI
-
-🛠️ Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla JS)
-
-📂 Project Structure
 FoodDelivery/
-│
-├── index.html
-├── cart.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
-⚙️ How to Run the Project
 
-Clone the repository
+│
+
+├── index.html
+
+├── cart.html
+
+├── style.css
+
+├── script.js
+
+├── images/
+
+└── README.md
+
+---
+
+## ⚙️ How to Run the Project
+
+Step 1: Clone the repository
 
 git clone https://github.com/RoopRC/FoodDelivery.git
 
-Open the project folder
+
+Step 2: Open the project folder
 
 cd FoodDelivery
 
-Open index.html in your browser
-(You can also use VS Code Live Server.)
 
-🌍 Deployment
+Step 3: Open index.html in your browser
+
+(You can also use VS Code Live Server extension.)
+
+---
+
+## 🌍 Deployment
 
 This project is deployed using GitHub Pages.
 
 Live URL:
 https://rooprc.github.io/FoodDelivery/
 
-👩‍💻 Author
+---
 
-Roopa Chinchewadi
-Computer Science Engineering Student
+## 👩‍💻 Author
+
+Roopa Chinchewadi  
+Computer Science Engineering Student  
 Frontend Developer
 
-📄 License
+---
+
+## 📄 License
 
 This project is created for educational purposes.
