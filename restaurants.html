@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants — FoodieExpress</title>
+    <meta name="description"
+        content="Browse restaurants near you. Filter by cuisine, sort by rating or delivery time. Order from 500+ restaurants.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍔</text></svg>">
+</head>
+
+<body>
+
+    <!-- Fullscreen Background Video -->
+    <div class="video-background" id="videoBg">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_h264.mov" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Main content wrapper -->
+    <div class="content">
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <div class="logo-icon">🍕</div>
+                Foodie<span style="color: var(--primary)">Express</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="restaurants.html" style="color: var(--primary)">Restaurants</a>
+                <a href="cart.html" class="cart-icon-wrapper" id="cartNavIcon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                    </svg>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====== PAGE HEADER ====== -->
+    <div class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>›</span>
+                <span>Restaurants</span>
+            </div>
+            <h1>All Restaurants</h1>
+            <p>Discover and order from the best restaurants near you</p>
+        </div>
+    </div>
+
+    <!-- ====== FILTER BAR ====== -->
+    <div class="filter-bar">
+        <div class="container">
+            <div class="filter-bar-inner">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Search for restaurants or cuisines..."
+                        autocomplete="off">
+                </div>
+                <select class="sort-dropdown" id="sortDropdown">
+                    <option value="default">Sort By</option>
+                    <option value="rating">Rating (High to Low)</option>
+                    <option value="deliveryTime">Delivery Time (Fast)</option>
+                    <option value="costLow">Cost (Low to High)</option>
+                    <option value="costHigh">Cost (High to Low)</option>
+                </select>
+            </div>
+            <div class="cuisine-chips" id="cuisineChips">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== LISTING CONTENT ====== -->
+    <div class="listing-content">
+        <div class="container">
+            <div class="results-info" id="resultsInfo">
+                <span><strong id="resultCount">10</strong> restaurants found</span>
+            </div>
+            <div class="restaurants-grid" id="restaurantsGrid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>&copy; 2026 FoodieExpress. All rights reserved.</p>
+                <p>Made with ❤️ for food lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    </div> <!-- End of content wrapper -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
