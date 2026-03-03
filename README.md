@@ -18,7 +18,7 @@ https://rooprc.github.io/FoodDelivery/
 
 https://foodieexpresslive.netlify.app/ 
 
-food-delivery-gui4oa08n-rooprcs-projects.vercel.app
+https://food-delivery-git-main-rooprcs-projects.vercel.app/
 
 ---
 
